@@ -48,7 +48,7 @@ document.getElementById('readBtn').addEventListener('click', function() {
     const moreText = document.getElementById('more');
     if (moreText.style.display === 'none') {
         moreText.style.display = 'inline';
-        this.textContent = 'Read less';
+        this.textContent = 'Show less';
     } else {
         moreText.style.display = 'none';
         this.textContent = 'Read more';
