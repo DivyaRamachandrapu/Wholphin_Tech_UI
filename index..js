@@ -11,7 +11,7 @@ document.getElementById('toggle-button').addEventListener('click', function() {
 
     sidebar.classList.toggle('hidden');
 
-    // Adjust the main content margin based on sidebar visibility
+    
     const mainContent = document.getElementById('main-content');
     if (sidebar.classList.contains('hidden')) {
         mainContent.style.marginLeft = '0';
@@ -73,15 +73,15 @@ document.addEventListener('DOMContentLoaded', () => {
 });
 
 document.addEventListener('DOMContentLoaded', () => {
-    // Get the buttons by their IDs
+    
     const collectionButton = document.getElementById('collectionButton');
     const souvenirButton = document.getElementById('souvenirButton');
 
-    // Define the URLs to redirect to
+    
     const collectionPageURL = 'https://www.artic.edu/artworks/144735/bodhisattva-maitreya-with-fear-not-gesture-abhayamudra';
     const souvenirPageURL = 'https://en.wikipedia.org/wiki/Abhayamudra';
 
-    // Add click event listeners to each button
+    
     collectionButton.addEventListener('click', () => {
         window.location.href = collectionPageURL;
     });
